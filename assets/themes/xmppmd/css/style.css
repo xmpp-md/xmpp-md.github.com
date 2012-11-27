@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	font-family: "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
+	background-color: white;
+}
+
+hr {
+	border: 1px solid black;
+	margin: 3px;
+}
+
+p, li {
+	margin: 0 0 5px 0;
+}
+
+p {
+	text-indent: 2em;
+}
+
+p.sign {
+	font-style: italic;
+	text-align: right;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+.container {
+	margin: 0 10px 10px 50px;
+}
+
+.site_logo {
+	float: left;
+}
+
+header {
+	margin-right: 20px;
+}
+
+header h1 {
+	margin-top: 10px;
+	text-align: center;
+}
+
+header h3 {
+	text-align: right;
+	font-style: italic;
+	font-weight: normal;
+}
+
+footer {
+	float: right;
+	text-align: right;
+}
