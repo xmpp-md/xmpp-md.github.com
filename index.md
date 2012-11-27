@@ -1,46 +1,24 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Public Moldavian Jabber server
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<p><a href="http://ru.wikipedia.org/wiki/Jabber">Jabber</a> — открытый протокол
+  для быстрого обмена сообщениями и информацией о присутствии между любыми
+  двумя пользователями Интернет.</p>
+<p>Jabber имеет ряд преимуществ по сравнению с коммерческими системами IM:</p>
+<ul>
+  <li><b>Открытость:</b> протокол Jabber <a href="http://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82" title="Открытый стандарт">открыт</a>, общедоступен и достаточно лёгок для понимания; существует множество реализаций серверов и клиентов, а также библиотек с открытым исходным кодом.</li>
+  <li><b>Расширяемость:</b> с помощью <a href="http://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE_%D0%B8%D0%BC%D1%91%D0%BD_%28%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%29" title="Пространство имён (программирование)">пространств имён</a> в XML можно расширить протокол Jabber для выполнения требуемых задач и для обеспечения поддержки взаимодействия между различными системами. Общие расширения разрабатываются под контролем <i>Jabber Software Foundation</i>.</li>
+  <li><b>Децентрализованность:</b> кто угодно может запустить свой собственный сервер Jabber, что позволяет организациям и частным лицам заниматься любыми экспериментами с IM.</li>
+  <li><b>Безопасность:</b> любой сервер Jabber может быть изолирован от общедоступной сети Jabber, многие из вариантов реализации сервера используют SSL при обмене между клиентом и сервером, и немало клиентов поддерживают шифрование с помощью PGP/GPG внутри протокола.</li>
+</ul>
+<p class="sign">Материал из Википедии — свободной энциклопедии</p>
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
+<!--
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+</ul> -->

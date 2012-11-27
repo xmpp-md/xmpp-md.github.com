@@ -4,9 +4,9 @@
 	border: none;
 }
 
-body {
+html {
 	font-family: "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
-	background-color: white;
+	background-color: #fefefe;
 }
 
 hr {
