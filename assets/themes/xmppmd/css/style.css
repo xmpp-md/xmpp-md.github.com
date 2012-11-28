@@ -54,6 +54,14 @@ ul, ol {
 	font-weight: normal;
 }
 
+.post_header {
+	font-weight: bold;
+}
+
+.post_header a {
+	color: #000;
+}
+
 .footer {
 	float: right;
 	text-align: right;

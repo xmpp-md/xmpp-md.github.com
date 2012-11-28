@@ -15,11 +15,16 @@ title: Public Moldavian Jabber server
   <li><b>Безопасность:</b> любой сервер Jabber может быть изолирован от общедоступной сети Jabber, многие из вариантов реализации сервера используют SSL при обмене между клиентом и сервером, и немало клиентов поддерживают шифрование с помощью PGP/GPG внутри протокола.</li>
 </ul>
 <p class="sign">Материал из Википедии — свободной энциклопедии</p>
-
+<hr />
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
     <div class="post">
-      <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.date | date_to_string }}</a>. {{ post.content }}
+      <div class="post_header"><span class="date">{{ post.date | date_to_string }}.</span> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
+      <div>
+        {{ post.content }}
+      </div>
     </div>
   {% endfor %}
 </div>
+
+<div><a href="/archive.html">Архив новостей</a></div>
