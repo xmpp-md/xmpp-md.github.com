@@ -16,11 +16,7 @@ title: Public Moldavian Jabber server
 </ul>
 <p class="sign">Материал из Википедии — свободной энциклопедии</p>
 <hr />
-В настоящее время можно зарегистрировать аккаунт на одном из трёх доменов:
-
-* [yo.md](http://yo.md:5280/register/);
-* [jabber.md](http://jabber.md:5280/register/);
-* [xmpp.md](http://xmpp.md:5280/register/).
+В настоящее время регистрация новых аккаунтов приостановлена.
 
 <hr />
 <div class="posts">
